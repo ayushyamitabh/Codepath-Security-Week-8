@@ -54,7 +54,8 @@ Vulnerability #1: CSRF
 * The attacker submits a malicious webpage into the feedback section.
 * The victim visits the url from the feedback.
 * The malicious webpage silently submits a form to the edit section of the victims page.
-``` <!DOCTYPE html>
+``` 
+<!DOCTYPE html>
 		<html>
 	<head>
 		<title>Your Feedback</title>
@@ -84,7 +85,8 @@ Vulnerability #1: CSRF
 			});
 		});
 		</script>
-</html>```
+</html>
+```
 
 Vulnerability #2: User Enumeration
 <img src="https://i.imgur.com/7IZ8N9k.gif"/>
